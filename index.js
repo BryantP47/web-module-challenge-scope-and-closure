@@ -16,8 +16,14 @@
 function processFirstItem(stringList, callback) {
   return callback(stringList[0])
 }
-console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
+// console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
 
+function addStrings(str){
+  return str+str;
+
+}
+
+processFirstItem(['foo','bar'], addStrings);
 // ⭐️ Example Challenge END ⭐️
 
 
@@ -62,10 +68,12 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(/*Code Here*/){
-    /*Code Here*/
+function inning(points){
+    let points = 0;
+    points++;
 }
 
+inning()
 
 /* ⚾️⚾️⚾️ Task 3: finalScore() ⚾️⚾️⚾️
 Use the finalScore function below to do the following:
