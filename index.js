@@ -103,7 +103,7 @@ Use the getInningScore() function below to do the following:
 function getInningScore(/*Your Code Here */) {
   /*Your Code Here */
 }
-
+fff
 
 /* ⚾️⚾️⚾️ Task 5: scoreboard() ⚾️⚾️⚾️
 Use the scoreboard function below to do the following:
